@@ -25,6 +25,7 @@ public class GoodPlayer {
 
 	}
 
+	// Getter
 	public int HealthRemaining() {
 		return hp;
 	}
