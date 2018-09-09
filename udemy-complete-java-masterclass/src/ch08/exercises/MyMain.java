@@ -3,7 +3,7 @@ package ch08.exercises;
 public class MyMain {
 	public static void main() {
 
-		System.out.println("Chaper 8 Exercises");
+		System.out.println("Chapter 8 Exercises");
 		System.out.println();
 		BadPlayer player = new BadPlayer();
 		player.name = "Tim";
@@ -39,7 +39,7 @@ public class MyMain {
 		// but implement parent method differently.
 
 		System.out.println();
-		System.out.println("End of Chaper 8 Exercises");
+		System.out.println("End of Chapter 8 Exercises");
 		System.out.println();
 
 	}
