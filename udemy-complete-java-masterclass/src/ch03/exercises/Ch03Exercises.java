@@ -1,6 +1,6 @@
 package ch03.exercises;
 
-public class MyMain {
+public class Ch03Exercises {
 	public static void main() {
 		System.out.println("Chapter 3 Exercises");
 		System.out.println();

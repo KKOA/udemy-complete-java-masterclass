@@ -1,6 +1,6 @@
 package ch04.challenges;
 
-public class MyMain {
+public class Ch04Challenges {
 	public static void main() {
 		System.out.println("Chapter 4 Challenges");
 		System.out.println();
