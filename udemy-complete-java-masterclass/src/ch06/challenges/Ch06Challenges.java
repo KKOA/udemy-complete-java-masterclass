@@ -36,6 +36,10 @@ public class Ch06Challenges {
 
 		NumberToWords.main();
 
+		FlourPacker.main();
+
+		LargestPrime.main();
+
 		System.out.println();
 		System.out.println("End of Chapter 6 Challenges");
 		System.out.println();
