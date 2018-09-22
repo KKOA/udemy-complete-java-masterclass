@@ -1,8 +1,10 @@
 package ch06.challenges;
 
+import java.util.Scanner;
+
 public class Ch06Challenges {
 
-	public static void main() {
+	public static void main(Scanner scanner) {
 		System.out.println("Chapter 6 Challenges");
 		System.out.println();
 
@@ -39,6 +41,10 @@ public class Ch06Challenges {
 		FlourPacker.main();
 
 		LargestPrime.main();
+
+		ReadUserInput.main(scanner);
+
+		MinAndMaxInput.main(scanner);
 
 		System.out.println();
 		System.out.println("End of Chapter 6 Challenges");
