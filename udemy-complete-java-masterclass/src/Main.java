@@ -1,8 +1,14 @@
+import java.util.Scanner;
 
 public class Main {
 
+	private static Scanner scanner // = new Scanner(System.in)
+	;
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		openScanner();
+
 		ch03.exercises.Ch03Exercises.main();
 		System.out.println();
 
@@ -16,9 +22,9 @@ public class Main {
 		ch05.challenges.Ch05Challenges.main();
 		System.out.println();
 
-		ch06.exercises.Ch06Exercises.main();
+		ch06.exercises.Ch06Exercises.main(scanner);
 		System.out.println();
-		ch06.challenges.Ch06Challenges.main();
+		ch06.challenges.Ch06Challenges.main(scanner);
 		System.out.println();
 
 //		System.out.println();
@@ -32,6 +38,18 @@ public class Main {
 //		ch09.exercises.MyMain.main();
 //		ch09.challenges.MyMain.main();
 
+		closeScanner();
+	}
+
+	public static void openScanner() {
+		System.out.println("Opening scanner ");
+		scanner = new Scanner(System.in);
+		System.out.println();
+	}
+
+	public static void closeScanner() {
+		System.out.println("Closing scanner ");
+		scanner.close();
 	}
 
 }
