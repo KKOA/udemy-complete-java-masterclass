@@ -1,6 +1,14 @@
 package ch05.challenges;
 
 public class MegaBytesConverter {
+
+	public static void main() {
+		System.out.println("MegaBytesConverter");
+		MegaBytesConverter.printMegaBytesAndKiloBytes(2050);
+		MegaBytesConverter.printMegaBytesAndKiloBytes(-20);
+		System.out.println();
+	}
+
 	public static void printMegaBytesAndKiloBytes(int kiloBytes) {
 
 		if (kiloBytes < 0) {

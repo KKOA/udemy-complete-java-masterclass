@@ -35,6 +35,17 @@ public class SecondsAndMinutes {
 	private static final int MINUTES_IN_HOUR = 60;
 	private static final int MIN = 0;
 
+	public static void main() {
+		System.out.println("SecondsAndMinutes.getDurationString");
+		System.out.println(SecondsAndMinutes.getDurationString(100, 58));
+		System.out.println(SecondsAndMinutes.getDurationString(100, 300));
+		System.out.println(SecondsAndMinutes.getDurationString(0, 20));
+		System.out.println(SecondsAndMinutes.getDurationString(-30, 20));
+		System.out.println(SecondsAndMinutes.getDurationString(66));
+		System.out.println(SecondsAndMinutes.getDurationString(-58));
+		System.out.println();
+	}
+
 	public static String getDurationString(int minutes, int seconds) {
 		if ((minutes < MIN) || (seconds < MIN || seconds >= SECONDS_IN_MINUTE)) {
 			return "Invalid minutes or seconds (" + minutes + " minutes, " + seconds + " seconds)";

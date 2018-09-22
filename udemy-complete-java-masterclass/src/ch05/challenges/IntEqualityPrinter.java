@@ -7,6 +7,15 @@ public class IntEqualityPrinter {
 	private static final String DEFAULT = "Neither all are equal or different";
 	private static final String INVALID_VALUE_MESSAGE = "Invalid Value";
 
+	public static void main() {
+		System.out.println("IntEqualityPrinter");
+		IntEqualityPrinter.printEqual(1, 1, 1);
+		IntEqualityPrinter.printEqual(1, 1, 2);
+		IntEqualityPrinter.printEqual(-1, -1, -1);
+		IntEqualityPrinter.printEqual(1, 2, 3);
+		System.out.println();
+	}
+
 	public static void printEqual(int number1, int number2, int number3) {
 		if (number1 < 0 || number2 < 0 || number3 < 0) {
 			System.out.println(INVALID_VALUE_MESSAGE);

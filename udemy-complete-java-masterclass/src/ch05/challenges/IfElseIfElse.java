@@ -2,6 +2,7 @@ package ch05.challenges;
 
 public class IfElseIfElse {
 	public static void main() {
+		System.out.println("IfElseIf");
 		boolean gameOver = true;
 		int score = 10000;
 		int levelCompleted = 8;
@@ -11,6 +12,7 @@ public class IfElseIfElse {
 			int finalScore = score + (levelCompleted * bonus);
 			System.out.println("Your final score was " + finalScore);
 		}
+		System.out.println();
 
 	}
 }

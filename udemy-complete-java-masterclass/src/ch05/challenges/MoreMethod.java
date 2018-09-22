@@ -3,6 +3,7 @@ package ch05.challenges;
 public class MoreMethod {
 	public static void main() {
 		// calculateHighScorePosition(1500);
+		System.out.println("More Method");
 		displayHighScorePosition("keith", calculateHighScorePosition(1500));
 
 		displayHighScorePosition("Carol", calculateHighScorePosition(1000));
@@ -13,6 +14,7 @@ public class MoreMethod {
 		displayHighScorePosition("Julian", calculateHighScorePosition(400));
 
 		displayHighScorePosition("Tom", calculateHighScorePosition(50));
+		System.out.println();
 	}
 
 	public static void displayHighScorePosition(String name, int pos) {
