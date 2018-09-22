@@ -3,7 +3,7 @@ package ch06.challenges;
 public class LastDigitChecker {
 
 	public static void main() {
-		// TODO Auto-generated method stub
+		System.out.println("LastDigitChecker");
 		int num1 = 41, num2 = 22, num3 = 71;
 		System.out.println(hasSameLastDigit(num1, num2, num3));
 

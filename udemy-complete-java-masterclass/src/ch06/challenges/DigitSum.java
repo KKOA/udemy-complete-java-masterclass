@@ -5,7 +5,7 @@ public class DigitSum {
 	private static final int MIN = 10;
 
 	public static void main() {
-
+		System.out.println("DigitSum");
 		int number = 1;
 		// System.out.println("The sum of digits in number " + number + " is " +
 		// DigitSum.sumDigits(number));

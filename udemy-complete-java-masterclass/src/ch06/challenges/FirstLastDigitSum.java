@@ -3,6 +3,7 @@ package ch06.challenges;
 public class FirstLastDigitSum {
 
 	public static void main() {
+		System.out.println("FirstLastDigitSum");
 		int number = 0;
 		System.out.println(
 				"Sum of First and last digit of " + number + " : " + FirstLastDigitSum.sumFirstAndLastDigit(number));

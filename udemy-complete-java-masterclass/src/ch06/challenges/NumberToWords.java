@@ -6,7 +6,7 @@ public class NumberToWords {
 	public static final String INVALID_MSG = "Invalid Value";
 
 	public static void main() {
-
+		System.out.println("NumberToWords");
 		numberToWords(10);
 		numberToWords(0);
 		numberToWords(123);

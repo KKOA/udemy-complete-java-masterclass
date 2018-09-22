@@ -5,6 +5,7 @@ public class LargestPrime {
 	public static final int SMALLEST_PRIME = 2;
 
 	public static void main() {
+		System.out.println("LargestPrime");
 		int number = 21;
 		System.out.println("Larget Prime less than equal to " + number + " : " + getLargestPrime(number));
 

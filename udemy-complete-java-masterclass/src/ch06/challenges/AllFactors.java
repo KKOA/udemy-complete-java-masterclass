@@ -5,6 +5,7 @@ public class AllFactors {
 	public static final String INVALID_MSG = "Invalid Value";
 
 	public static void main() {
+		System.out.println("AllFactors");
 		printFactors(6);
 		printFactors(-1);
 		printFactors(32);

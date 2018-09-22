@@ -7,6 +7,7 @@ public class NumberInWord {
 			"NINE" };
 
 	public static void main() {
+		System.out.println("NumberInWord");
 		NumberInWord.printNumberInWord(0);
 		NumberInWord.printNumberInWord(-4);
 		NumberInWord.printNumberInWord(5);

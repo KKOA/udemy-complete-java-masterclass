@@ -5,7 +5,7 @@ public class PerfectNumber {
 	public static final int MIN = 1;
 
 	public static void main() {
-		// TODO Auto-generated method stub
+		System.out.println("PerfectNumber");
 		int number = -56;
 		System.out.println(number + " is a perfect number : " + isPerfectNumber(number));
 		number = 6;

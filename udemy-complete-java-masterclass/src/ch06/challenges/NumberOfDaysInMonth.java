@@ -5,6 +5,7 @@ public class NumberOfDaysInMonth {
 	private static final int MONTHS_IN_YEAR = 12;
 
 	public static void main() {
+		System.out.println("NumberOfDaysInMonth");
 		int year = -4;
 		System.out.println(year + " is a leap year : " + NumberOfDaysInMonth.isLeapYear(year));
 		year = 1600;

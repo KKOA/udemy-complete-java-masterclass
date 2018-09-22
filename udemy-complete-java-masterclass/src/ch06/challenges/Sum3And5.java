@@ -7,6 +7,7 @@ public class Sum3And5 {
 	public static final int END_COUNTER = 1000;
 
 	public static void main() {
+		System.out.println("Sum3And5");
 		int total = 0, found = 0;
 		for (int i = START_COUNTER; i < END_COUNTER; i++) {
 			if (divisibleBy(15, i)) {

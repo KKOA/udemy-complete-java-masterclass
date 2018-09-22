@@ -8,6 +8,7 @@ public class FlourPacker {
 
 	public static void main() {
 
+		System.out.println("FlourPacker");
 		int bigCount = 1, smallCount = 0, goal = 4;
 
 		System.out

@@ -7,6 +7,7 @@ public class DayOfTheWeek {
 			"Saturday", };
 
 	public static void main() {
+		System.out.println("DayOfTheWeek");
 		int number = 4;
 		DayOfTheWeek.printDayOfTheWeek(number);
 		number = 7;

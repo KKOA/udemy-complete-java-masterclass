@@ -5,6 +5,7 @@ public class SumOddRange {
 	public static final int MIN_NUMBER = 0;
 
 	public static void main() {
+		System.out.println("SumOddRange");
 		int start_value = 1, end_value = 100;
 		System.out.println("Sum of odd number between " + start_value + " and " + end_value + " is : "
 				+ SumOddRange.sumOdd(start_value, end_value));

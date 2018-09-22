@@ -6,7 +6,7 @@ public class SharedDigit {
 	public static final int MAX_DOUBLE_DIGIT = 99;
 
 	public static void main() {
-		// TODO Auto-generated method stub
+		System.out.println("SharedDigit");
 		int num1 = 9, num2 = 9;
 		System.out.println(num1 + " and " + num2 + " share a common digit : " + hasSharedDigit(num1, num2));
 		num1 = 12;

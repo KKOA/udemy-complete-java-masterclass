@@ -3,6 +3,7 @@ package ch06.challenges;
 public class NumberPalindrome {
 
 	public static void main() {
+		System.out.println("NumberPalindrome");
 		int number = -222;
 		System.out.println(number + " is a Palindrome : " + NumberPalindrome.isPalindrome(number));
 		number = 110;

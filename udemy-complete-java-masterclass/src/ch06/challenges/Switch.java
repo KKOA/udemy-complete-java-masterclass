@@ -2,6 +2,7 @@ package ch06.challenges;
 
 public class Switch {
 	public static void main() {
+		System.out.println("Switch");
 		char character = 'F';
 		switch (character)// test this value against case
 		{
@@ -16,5 +17,6 @@ public class Switch {
 			System.out.println("Could not find A, B, C, D or E");
 			break;
 		}
+		System.out.println();
 	}
 }
