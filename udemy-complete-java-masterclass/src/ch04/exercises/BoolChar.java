@@ -2,6 +2,7 @@ package ch04.exercises;
 
 public class BoolChar {
 	public static void main() {
+		System.out.println("BoolChar");
 		char myChar = '&';
 		// Can only contain one characters
 		System.out.println(myChar);
@@ -14,6 +15,7 @@ public class BoolChar {
 		boolean myBoolean = true;
 		// can only take two value true or false
 		System.out.println(myBoolean);
+		System.out.println();
 
 	}
 }

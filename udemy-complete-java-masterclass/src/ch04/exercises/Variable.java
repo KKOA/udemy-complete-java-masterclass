@@ -10,6 +10,7 @@ public class Variable {
 
 	public static void main() {
 
+		System.out.println("Variable");
 		// Declare and initialise variable
 		int myFirstNumber = 5;
 		// data-type variable-name = value
@@ -33,6 +34,7 @@ public class Variable {
 		// variable names are case sensitive
 
 		System.out.println(newmyTotal);
+		System.out.println();
 
 	}
 

@@ -7,6 +7,5 @@ public class Ch03Exercises {
 		HelloWorld.main();
 		System.out.println();
 		System.out.println("End of Chapter 3 Exercises");
-		System.out.println();
 	}
 }

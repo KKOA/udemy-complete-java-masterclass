@@ -7,6 +7,7 @@ public class HelloWorld {
 
 		// Output value to console
 		System.out.println("Hello World");
+		System.out.println();
 
 	}
 

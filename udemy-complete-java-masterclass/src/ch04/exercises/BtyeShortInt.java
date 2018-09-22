@@ -4,6 +4,7 @@ public class BtyeShortInt {
 
 	public static void main() {
 
+		System.out.println("BtyeShortInt");
 		// Each data store value within given range.
 
 		// The data type determines the amount memory allocate to it and their max
@@ -36,6 +37,7 @@ public class BtyeShortInt {
 		// Use capital L at the end of number to tell java we are working long
 		// otherwise java will assume number is integer by default
 		long maxLongValue = 9_223_372_036_854_775_807L;
+		System.out.println();
 
 	}
 

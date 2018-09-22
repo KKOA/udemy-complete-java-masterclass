@@ -2,6 +2,7 @@ package ch04.exercises;
 
 public class StringType {
 	public static void main() {
+		System.out.println("StringType");
 		String myString = "This is a string";
 		System.out.println("myString is equal to " + myString);
 
@@ -29,6 +30,7 @@ public class StringType {
 		double mydouble = 120.47;
 		lastString = lastString + mydouble;
 		System.out.println("lastString is equal to " + lastString);
+		System.out.println();
 
 	}
 }

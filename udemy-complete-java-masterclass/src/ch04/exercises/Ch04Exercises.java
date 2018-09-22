@@ -14,6 +14,6 @@ public class Ch04Exercises {
 
 		System.out.println();
 		System.out.println("End of Chapter 4 Exercises");
-		System.out.println();
+
 	}
 }

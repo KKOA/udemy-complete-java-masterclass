@@ -4,6 +4,7 @@ public class FloatDouble {
 
 	public static void main() {
 
+		System.out.println("FloatDouble");
 		int myIntValue = 5;
 		int myNewIntValue = myIntValue / 2;
 
@@ -25,7 +26,7 @@ public class FloatDouble {
 		// Double over float
 		// more precise
 		// faster and default return type for many of java built in functions
-
+		System.out.println();
 	}
 
 }

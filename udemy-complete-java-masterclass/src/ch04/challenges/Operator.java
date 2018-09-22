@@ -2,6 +2,7 @@ package ch04.challenges;
 
 public class Operator {
 	public static void main() {
+		System.out.println("Operator");
 		double firstValue = 20d, secondValue = 80d;
 		System.out.println("FirstValue : " + firstValue);
 		System.out.println("SecondValue : " + secondValue);
@@ -12,5 +13,6 @@ public class Operator {
 		if (fourthValue <= 20) {
 			System.out.println("Total was over the limit");
 		}
+		System.out.println();
 	}
 }

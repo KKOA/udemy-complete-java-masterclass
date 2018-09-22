@@ -2,6 +2,7 @@ package ch04.exercises;
 
 public class Operator {
 	public static void main() {
+		System.out.println("Operator");
 		int result = 1 + 2;
 		System.out.println(" 1 + 2 = " + result);
 
@@ -91,6 +92,7 @@ public class Operator {
 		if (wasCar) {
 			System.out.println("wasCar is true");
 		}
+		System.out.println();
 
 	}
 }
