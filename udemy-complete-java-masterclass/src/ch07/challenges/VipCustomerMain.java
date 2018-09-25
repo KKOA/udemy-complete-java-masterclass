@@ -19,5 +19,6 @@ public class VipCustomerMain {
 		System.out.println(person3.getName());
 		System.out.println(person3.getCreditLimit());
 		System.out.println(person3.getEmail());
+		System.out.println();
 	}
 }
