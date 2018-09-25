@@ -1,12 +1,16 @@
 package ch08.challenges;
 
 public class Printer {
+	// fields
 	private int tonerLevel;
 	private int pagesPrinted;
 	private boolean duplex;
+	private static final int MAX_TONNER_LEVEL = 100;
+	private static final int MIN_TONNER_LEVEL = 0;
 
+	// constructor
 	public Printer(int tonerLevel, boolean duplex) {
-		if (tonerLevel < -1 && tonerLevel <= 100)
+		if (tonerLevel >= MIN_TONNER_LEVEL && tonerLevel <= MAX_TONNER_LEVEL)
 			this.tonerLevel = tonerLevel;
 		else
 			this.tonerLevel = -1;
@@ -16,8 +20,8 @@ public class Printer {
 	}
 
 	public int fillUpToner(int amount) {
-		if ((amount >= 0) && (amount <= 100)) {
-			if (this.tonerLevel + amount < 100) {
+		if ((amount >= MIN_TONNER_LEVEL) && (amount <= MAX_TONNER_LEVEL)) {
+			if (this.tonerLevel + amount < MAX_TONNER_LEVEL) {
 				this.tonerLevel += amount;
 				return this.tonerLevel;
 			} else {
@@ -28,7 +32,7 @@ public class Printer {
 		}
 	}
 
-	public int pritnPages(int pages) {
+	public int printPages(int pages) {
 		int pageToPrint = pages;
 		if (this.duplex) {
 			pageToPrint = (pageToPrint / 2) + (pages % 2);
