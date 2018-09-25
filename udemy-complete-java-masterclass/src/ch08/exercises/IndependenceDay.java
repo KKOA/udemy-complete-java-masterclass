@@ -2,6 +2,7 @@ package ch08.exercises;
 
 class IndependenceDay extends Movie {
 
+	// Constructor
 	public IndependenceDay() {
 		super("Independence Day");
 	}

@@ -3,6 +3,7 @@ package ch08.exercises;
 class Movie {
 	private String name;
 
+	// Constructor
 	public Movie(String name) {
 		this.name = name;
 	}

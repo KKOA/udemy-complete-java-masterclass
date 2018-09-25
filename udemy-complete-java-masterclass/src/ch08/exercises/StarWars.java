@@ -1,6 +1,7 @@
 package ch08.exercises;
 
 public class StarWars extends Movie {
+	// Constructor
 	public StarWars() {
 		super("Star Wars");
 	}

@@ -1,6 +1,7 @@
 package ch08.exercises;
 
 class Jaws extends Movie {
+	// Constructor
 	public Jaws() {
 		super("Jaws");
 	}
