@@ -8,6 +8,7 @@ public class Ch07Challenges {
 
 		AccountMain.main();
 		VipCustomerMain.main();
+		VechileMain.main();
 
 		System.out.println();
 		System.out.println("End of Chapter 7 Challenges");
