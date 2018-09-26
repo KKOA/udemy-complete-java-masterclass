@@ -27,13 +27,15 @@ public class Main {
 		ch06.challenges.Ch06Challenges.main(scanner);
 		System.out.println();
 
-//		System.out.println();
-//		ch07.exercises.MyMain.main();
-//		System.out.println();
-//		ch07.challenges.MyMain.main();
+		System.out.println();
+		ch07.exercises.Ch07Exercises.main();
+		System.out.println();
+		ch07.challenges.Ch07Challenges.main();
 
-//		ch08.exercises.MyMain.main();
-//		ch08.challenges.MyMain.main();
+		System.out.println();
+		ch08.exercises.Ch08Exercises.main();
+		System.out.println();
+		ch08.challenges.Ch08Challenges.main();
 
 //		ch09.exercises.MyMain.main();
 //		ch09.challenges.MyMain.main();
