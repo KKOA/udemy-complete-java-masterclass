@@ -9,6 +9,7 @@ public class Ch08Challenges {
 		RoomMain.main();
 		PrinterMain.main();
 		CarMain.main();
+		BurgerMain.main();
 
 		System.out.println();
 		System.out.println("End of Chapter 8 Challenges");
